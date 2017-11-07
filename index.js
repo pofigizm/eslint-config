@@ -26,6 +26,7 @@ module.exports = {
       }
     ],
     'global-require': 0,
+    'function-paren-newline': 0,
 
     'import/extensions': 0,
     'import/first': 0,
