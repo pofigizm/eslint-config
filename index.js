@@ -15,6 +15,7 @@ module.exports = {
     '__ROOT__': true
   },
   'rules': {
+    'arrow-body-style': 0,
     'comma-dangle': [
       2,
       {
@@ -49,6 +50,7 @@ module.exports = {
     'no-return-assign': 1,
     'no-shadow': 1,
     'no-underscore-dangle': 1,
+    'object-curly-newline': 0,
 
     'react/jsx-filename-extension': 0,
     'react/prop-types': 0,

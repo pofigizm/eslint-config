@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-pofigizm",
   "description": "Eslint configuration for pofigizm projects.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "index.js",
   "author": {
     "name": "pofigizm"
