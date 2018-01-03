@@ -3,18 +3,20 @@ module.exports = {
   plugins: [
     'react'
   ],
-  'env': {
+  env: {
     'browser': true,
     'jest': true
   },
-  'parser': 'babel-eslint',
-  'globals': {
-    '__LOC__': true,
+  parser: 'babel-eslint',
+  globals: {
+    '__BROWSER__': true
     '__DEV__': true,
+    '__LOC__': true,
+    '__MOCK__': true,
     '__PROJECT__': true,
-    '__ROOT__': true
+    '__ROOT__': true,
   },
-  'rules': {
+  rules: {
     'arrow-body-style': 0,
     'comma-dangle': [
       2,
