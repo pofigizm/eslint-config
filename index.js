@@ -1,32 +1,32 @@
 module.exports = {
   extends: 'airbnb',
   plugins: [
-    'react'
+    'react',
   ],
   env: {
-    'browser': true,
-    'jest': true
+    browser: true,
+    jest: true,
   },
   parser: 'babel-eslint',
   globals: {
-    '__BROWSER__': true
-    '__DEV__': true,
-    '__LOC__': true,
-    '__MOCK__': true,
-    '__PROJECT__': true,
-    '__ROOT__': true,
+    __BROWSER__: true,
+    __DEV__: true,
+    __LOC__: true,
+    __MOCK__: true,
+    __PROJECT__: true,
+    __ROOT__: true,
   },
   rules: {
     'arrow-body-style': 0,
     'comma-dangle': [
       2,
       {
-        'arrays': 'always-multiline',
-        'objects': 'always-multiline',
-        'imports': 'always-multiline',
-        'exports': 'always-multiline',
-        'functions': 'ignore'
-      }
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'ignore',
+      },
     ],
     'global-require': 0,
     'function-paren-newline': 0,
@@ -58,6 +58,6 @@ module.exports = {
     'react/prop-types': 0,
     'react/sort-comp': 0,
 
-    'semi': [2, 'never']
-  }
+    semi: [2, 'never'],
+  },
 }

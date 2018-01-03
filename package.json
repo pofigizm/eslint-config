@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-pofigizm",
   "description": "Eslint configuration for pofigizm projects.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "index.js",
   "author": {
     "name": "pofigizm"
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:pofigizm/eslint-config.git"
+  },
+  "scripts": {
+    "lint": "eslint --fix index.js"
   },
   "peerDependencies": {
     "eslint": ">=4.10.0"
@@ -20,5 +23,8 @@
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-react": "7.5.1"
+  },
+  "devDependencies": {
+    "eslint": "4.14.0"
   }
 }
