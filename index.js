@@ -15,6 +15,7 @@ module.exports = {
     __MOCK__: true,
     __PROJECT__: true,
     __ROOT__: true,
+    __TEST__: true,
   },
   rules: {
     'arrow-body-style': 0,
